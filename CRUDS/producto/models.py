@@ -7,6 +7,7 @@ class Producto (models.Model):
         ('licor', 'Licor'),
         ('cigarrillo', 'Cigarrillos')
     ]
+
     nombre = models.CharField(max_length=20)
     tipo = models.CharField(max_length=30, choices=tipo_Producto)
     stock = models.IntegerField()

@@ -38,8 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Evento',
-    'producto'
-194f5
+    'producto',
 ]
 
 MIDDLEWARE = [
