@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Evento',
     'producto'
-194f5
 ]
 
 MIDDLEWARE = [
